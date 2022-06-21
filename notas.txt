@@ -1,0 +1,128 @@
+Lenguaje de programacion multiparadigma y multiplataforma e interpretado y de tipado dinamico
+-orientada objetos
+-imperativa
+-funcional
+
+
+-pycharm
+-VIM
+-pydev
+
+
+# comentrio
+"""
+ multi comentario
+"""
+
+- 3**2: tres elevado al cuadrado
+
+-and,or,not (la prioridad es: not,and,or)
+
+- print(f"esto muestra por consola{variable} varias variables sin comas{variables}")
+- input() entrada tipo cadena (string)
+- int(input()) conversion a int
+- int("0b1010",2) convierte un binario en base 2 a entero
+- abs(-8) valor absoluto, la distancia del numero hasta 0 en positivo 
+- round(5.6) redondear
+- lent ("cosa que cuenta") cuanta caracteres
+- a,b= b,a (intercamia los valores de a y b)
+
+Listas o array
+
+- lista=["lunes","martes"]
+- lista.append() añade al final
+- lista.insert(2,3) añade en el indice 2 el valor 3
+- lista.extend([7,8,9]) añade vario valores al final
+- print(10 in lista) si hay en una lista
+- lista.index(1) retorna el valor de un indice
+- lista.count(5) cuanta cuantas veces aparace un valor
+- lista.pop() elimina el ultimo valor de la lista
+- lista.pop(3) elimina por indice
+- lista.remove(5) elimina el valor 5 que hay en la lista
+- lista.reverse() revierte la lista
+- lista[1,2,3,4]*2  añade dos veces los elementos
+- lista[1,5,67,2,0].sort los ordena de menos a mayor 
+
+tuplas: listas inmtables
+
+- tupla(1,"papa",16)
+
+
+conjuntos: grupos de elementos desordenados sin duplicados
+
+- conjunto= set()
+- conjunto={1,"casa",2.2}
+(no puede haber colecciones dentro de los conjuntos)
+- conjunto.add("lara") lo añade al conjunto donde quiera
+- conjunto.discard(3) elimina el valor 3 
+- conjunto C=conjunto a|conjunto b  une dos conjuntos
+- c= a&b interseccion (comunes)
+- c=a-b los que son diferetes 
+
+
+Diccionarios elementos con clave valor desordenados
+
+- diccionario={"1234A":"pepe","azul":"blue"}
+- diccionario["1234A"] ver un elemento, poner la clave
+- diccionario["amarillo"]="yellow" añade
+- diccionario["amarillo"]="YELLOW" modifica
+- del(diccionario["amarillo"]) elimina
+
+Pilas añade por el final 
+
+- pila=[1,2,3]
+- pila.append(4)
+- pila.pop() saca el elemento y lo quita
+
+Colas: el primero en entrar es el primero en salir
+- cola["maria","pepe","ana"]
+- cola.append("juanito") ya que agrega al final 
+- cola.pop(0) para que elimine el primero
+
+Bucles:
+
+while: numero indeterminado de iteraciones infinito
+
+while nmero>0:
+	print("va")
+
+
+For: itereciones determinadas
+
+for i in array[]
+	print("va")
+
+- continue: continua
+- break: para
+
+
+cadenaas:
+
+- r"D:cosa/home/papas" para una url en crudo 
+- cadena[1:4] muestra de una cadena del elemento 1 al 4
+- split() separa elementos de una cadena
+- ",".join separa cada elemento de una cadena por un ,
+- strip() elimina espacios o  simbolos
+
+Funciones: pueden retornar varios valores
+funcion:
+	return 1,2,3
+
+- c,n,1=funcion()
+
+funciones recursivas: que se llaman a si mismas
+
+def cuenta_r(num)
+	if>0:
+		cuenta_r(num-1)
+	else:
+		print()
+
+
+Excepciones: 
+
+- try/except/else/finally
+- except tipo_excepcion: funciona si ocurre un tipo de excepcion concreta 
+- raise tipo_excepcion: lanza ua excepcion 
+- as: puedes poner un alias a una excepcion
+
